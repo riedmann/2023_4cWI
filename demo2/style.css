@@ -1,0 +1,36 @@
+.wrapper{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.content{
+    display: flex;
+    height:200%;
+    background-color: green;
+}
+
+.sidebar{
+    width:30vw;
+    background-color: orange;
+    padding:20px;
+}
+
+.main{
+    position: relative;
+    padding: 20px;
+}
+
+.teaser{
+    position: absolute;
+    top:0px;
+    right:0px;
+    background-color: blue;
+    width:100px;
+    height: 100px;
+    z-index: 4
+}

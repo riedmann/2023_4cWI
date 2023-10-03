@@ -1,0 +1,46 @@
+div {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: aqua;
+  height: 100px;
+}
+
+.main {
+  display: flex;
+}
+
+.main div {
+  height: 50h;
+}
+
+.content {
+  width: 100%;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  background-color: green;
+  z-index: 4;
+}
+
+.rel {
+  position: relative;
+  background-color: red;
+  width: 100px;
+  top: 20px;
+  left: 20px;
+}
+
+.login {
+  position: absolute;
+  right:0;
+  bottom: 0;
+}
