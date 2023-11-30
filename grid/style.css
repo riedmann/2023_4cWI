@@ -1,19 +1,14 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 5% 10% 40px 40px 40px 40px;
-  grid-template-rows: 8px auto 12px;
-  border-style: solid;
-  border-radius: 15px;
-  margin-bottom: 10px;
-  padding:30px;
+  grid-template-columns: 33% 33% 33%;  
+  gap:4px;
 }
 
-.circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-style: solid;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
+.box {
+ 
+  height: 50px;
+  background-color: red;
+ 
 }
+
+
